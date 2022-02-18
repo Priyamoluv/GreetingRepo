@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @EnableAutoConfiguration
 public class SpringBootHelloApplication {
     
-	@RequestMapping("/greetings")
+	@RequestMapping("/")
 	@ResponseBody
 	String firstPage() {
 		return "Hello World";
